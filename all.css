@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 68px;
+}
+
+header {
+  margin-bottom: 56px;
+  color: #fff;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true);
+  height: 958px;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .title {
+  font-size: 80px;
+  line-height: 106px;
+  margin-bottom: 32px;
+}
+
+header .title span {
+  display: block;
+  font-size: 24px;
+  line-height: 1.75;
+}
+
+header .subtitle {
+  margin-bottom: 40px;
+}
+
+header .linkList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .linkList li {
+  margin-left: 16px;
+}
+
+header .linkList li a {
+  font-size: 60px;
+  color: #891818;
+}
+
+.about {
+  text-align: center;
+  padding-bottom: 56px;
+  font-weight: bold;
+}
+
+.about .profilePic {
+  margin-bottom: 20px;
+}
+
+.about .personalInform {
+  padding-bottom: 24px;
+  margin-bottom: 28px;
+}
+
+.about .personalInform li:last-child {
+  line-height: 36px;
+}
+
+.about .experienceList {
+  width: 384px;
+  margin: 0 auto;
+  border-top: 1px solid #000;
+  padding-top: 28px;
+}
+
+.about .experienceList li {
+  margin-bottom: 28px;
+}
+
+.about .experienceList li:last-child {
+  margin-bottom: 0;
+}
+
+.about .experienceList li::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  top: 0px;
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.mainTitle {
+  font-size: 64px;
+  line-height: 84px;
+  margin-bottom: 40px;
+}
+
+.list {
+  line-height: 1.75;
+}
+
+.darkArea {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+
+.darkArea h3 {
+  line-height: 1.75;
+}
+
+.darkArea p {
+  font-size: 20px;
+  margin-bottom: 68px;
+}
+
+.darkArea .brandPic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px;
+}
+
+.works {
+  padding-top: 56px;
+  text-align: center;
+  margin-bottom: 144px;
+}
+
+.works .workIntro {
+  font-size: 20px;
+  margin-bottom: 56px;
+}
+
+.works .workPic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px;
+}
+
+.works .workPic p {
+  font-size: 20px;
+  line-height: 2.1;
+}
+
+footer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+footer .mainTitle {
+  margin-bottom: 16px;
+}
+
+footer .contact li {
+  margin-bottom: 16px;
+}
+
+footer .contact li:last-child {
+  margin-bottom: 0;
+}
+
+footer .contact a {
+  color: #fff;
+}
+/*# sourceMappingURL=all.css.map */
